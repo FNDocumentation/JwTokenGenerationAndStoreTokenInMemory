@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JWTokenGenartion-API", "JWTokenGenartion-API.csproj", "{D7E36169-16A2-4B70-BCD4-CF865FA1ED82}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JWTokenGenartion-API", "JWTokenGenartion-API\JWTokenGenartion-API.csproj", "{D7E36169-16A2-4B70-BCD4-CF865FA1ED82}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookStore-API", "..\BookStore-API\BookStore-API.csproj", "{6856BCA3-C97F-4A03-B0B5-E2ED56BC249B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookStore-API", "BookStore-API\BookStore-API.csproj", "{6856BCA3-C97F-4A03-B0B5-E2ED56BC249B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "..\Common\Common.csproj", "{185C2BC9-0DD2-47B3-8152-44C166E5B28F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common", "Common\Common.csproj", "{185C2BC9-0DD2-47B3-8152-44C166E5B28F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
