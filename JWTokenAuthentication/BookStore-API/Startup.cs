@@ -14,6 +14,7 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc.Formatters.Xml;
 
 namespace BookStore_API
 {
@@ -36,7 +37,11 @@ namespace BookStore_API
             services.AddScoped<JwtSecurityTokenHandler>(); // For parsing Jwt such reading information
 
             services.AddMemoryCache();
-            
+
+            services
+                .AddMvc()
+                .AddXmlDataContractSerializerFormatters();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
